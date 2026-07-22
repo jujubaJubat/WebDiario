@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+     background:pink;
+    color:deeppink;
+}
+
+#loading {
+    position: fixed;
+
+    width:100%;
+    height:100vh;
+
+     display: flex;
+    justify-content: center;
+    margin-top: 5cm;
+}
+
+#btn{
+     display: none;
+}
