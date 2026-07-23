@@ -36,3 +36,27 @@ body{
 -50% no eixo Y → anda metade da altura do botão para cima.
     */
 }
+
+#fefe{
+    width: 2cm;
+    position: absolute;
+    top: 24%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+
+#frajola{
+    width: 1.5cm;
+    position: absolute;
+    top: 24%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+#trixie{
+    width: 2cm;
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
