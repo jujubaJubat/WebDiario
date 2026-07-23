@@ -13,8 +13,26 @@ body{
      display: flex;
     justify-content: center;
     margin-top: 5cm;
+    font-size: xx-large;
 }
 
 #btn{
-     display: none;
+     display: none; /*escondendo o btn*/
+      padding: 15px 60px; 
+      font-size: larger;
+    background-color: deeppink;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    position: absolute; /*com o absolute, temos total controle de posicionamento do elemento*/
+    top: 50%; /*Coloque o topo do botão na metade da altura da tela*/
+    left: 50%; /*O lado esquerdo do botão vai parar no meio*/
+    transform: translate(-50%, -50%); /* Depois que você colocar o botão no meio,
+    volte metade do tamanho dele para a esquerda e metade para cima.
+
+    -50% no eixo X → anda metade da largura do botão para a esquerda.
+-50% no eixo Y → anda metade da altura do botão para cima.
+    */
 }
