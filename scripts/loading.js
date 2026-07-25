@@ -49,3 +49,6 @@ quanto pra fazer um elemento desaparecer tbm*/
   imagens[imagemaAtual]= colocamos imagemAtual dentro de [], pq a imagem atual dentro dessa var vai ser usada por imagens.
 */
 
+/*
+para conseguir usar o clearInterval dps, precisamos que o setInterval esteja dentro de uma var ou let, pra que gere um ID, pra dps usar no clearInterval
+*/
