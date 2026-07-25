@@ -6,7 +6,7 @@ const imagens= [ //criando uma lista com as imgs
 
 let imagemAtual= 0;  //img atual na posição 0 (primeira img)
 
-setInterval(function() { //função que se repete a cada 500ms
+ let intervalo= setInterval(function() { //função que se repete a cada 500ms
     //função executada para cada imagem
     imagens.forEach(function(imagem){ // o forEach serve para percorrer a lista, e fazer algo com alguma coisa dela
         imagem.style.opacity= "0"; //escondendo a img
@@ -22,7 +22,13 @@ setInterval(function() { //função que se repete a cada 500ms
 
 }, 500); //tempo delimitado
 
+setTimeout(function(){
 
+    imagens.forEach(function(imagem){ // o forEach serve para percorrer a lista, e fazer algo com alguma coisa dela
+        imagem.style.opacity= "0";
+    });
+    clearInterval(intervalo); //o clearInterval é oq faz o setInterval parar, pq ele n para sozinho
+}, 5000);
 
 setTimeout(() => {
 
